@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace AudioPlayer
 {
-    class Program
+    public class PlayList
     {
-        static void Main(string[] args)
-        {
-            var player = new AudioPlayer();
-        }
+
+        string nameCurrentPlayList;
+
+        Song[] songs;
+      
     }
 }

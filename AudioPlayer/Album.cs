@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace AudioPlayer
 {
-    class Program
+    public class Album
     {
-        static void Main(string[] args)
-        {
-            var player = new AudioPlayer();
-        }
+        Album album;
+
+        string nameCurrentAlbum;
+
+        Song[] songs;
+        Artist[] artist;
+
     }
 }
